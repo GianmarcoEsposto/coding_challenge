@@ -1,3 +1,5 @@
+## Coding challenge
+
 The following coding challenge is a test designed to evaluate programming and Python coding skills for a Data Scientist position,
 
 Context: Saki and Trapattoni-san's latest project is Ordirale, a robotic system to automate and speed up the movement of heavy stacks of manga within a retail store. They envision the store as an 8x8 matrix, with each cell indicating if it's free (" "), occupied by a wall ("P"), manga stack ("M"), action figure column ("A"), or checkout ("C"). Ordirale needs to move from a starting cell to an ending cell, making the least number of moves possible, following the movement pattern of a knight in chess.
