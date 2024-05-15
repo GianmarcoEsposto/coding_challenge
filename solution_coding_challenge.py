@@ -1,5 +1,4 @@
 import numpy as np
-# Lista rappresentativa della configurazione dell'ufficio per la definizione di "moe_current_office"
 lst_current_office = [
     ["P", "P", "P", "P", "P", "P", "P", "P"],
     [" ", "M", " ", " ", "M", " ", " ", "M"],
@@ -14,7 +13,6 @@ lst_current_office = [
 
 
 
-# Lista rappresentativa degli indici che identificano le posizioni di Ordirale all'interno della mappa
 lst_index = [
     [0, 1, 2, 3, 4, 5, 6, 7],
     [8, 9, 10, 11, 12, 13, 14, 15],
@@ -59,7 +57,6 @@ def upd(array,lst_office):
 
 
 
-# Scheletro della funzione move_current_office (il corpus va scritto!)
 def move_current_office(int_starting_position, int_end_position):
     np_lst_current_office = np.array(lst_current_office)
     result=0
